@@ -1,50 +1,51 @@
-#include <ioStream>
+#include <iostream>
 
 using namespace std;
 
 int main(){
-    string press;
-int amount;
-cout<<"ask me anything, choose these product or servise"<<endl;
 
-cin>>press;
+//     string press;
+// int amount;
+// cout<<"ask me anything, choose these product or servise"<<endl;
 
-if(press=="product"){
-    cout<<"1.home loan or 2.car loan"<<endl;
-    string press1;
-    cin>>press1;
-    if(press1=="home"){
-        cout<<"home loan alloted upto 5L " <<endl   ;
-        cin>>amount;
-        cout<<amount<<endl;
-         if(amount>=100000&&amount<=500000){
-            cout<<"your loan is alloted  "<<endl << amount << " "<<endl;
+// cin>>press;
 
-        }else{
-            cout<<"invalide input"<<endl;
-        }
+// if(press=="product"){
+//     cout<<"1.home loan or 2.car loan"<<endl;
+//     string press1;
+//     cin>>press1;
+//     if(press1=="home"){
+//         cout<<"home loan alloted upto 5L " <<endl   ;
+//         cin>>amount;
+//         cout<<amount<<endl;
+//          if(amount>=100000&&amount<=500000){
+//             cout<<"your loan is alloted  "<<endl << amount << " "<<endl;
 
-    }else if(press1=="car"){
-        cout<<"car loan alloted upto 10L"<<endl;
-        cin>>amount;
-        cout<<amount<<endl;
-         if(amount>=100000&&amount<=1000000){
-            cout<<"your loan is alloted";
+//         }else{
+//             cout<<"invalide input"<<endl;
+//         }
 
-        }else{
-            cout<<"invalide input";
-        }
+//     }else if(press1=="car"){
+//         cout<<"car loan alloted upto 10L"<<endl;
+//         cin>>amount;
+//         cout<<amount<<endl;
+//          if(amount>=100000&&amount<=1000000){
+//             cout<<"your loan is alloted";
 
-    }
+//         }else{
+//             cout<<"invalide input";
+//         }
 
-}else if (press =="service")
-{
-    cout<<"service is close";
-}
+//     }
 
-else{
-  cout<<"invalide input";
-}
+// }else if (press =="service")
+// {
+//     cout<<"service is close";
+// }
+
+// else{
+//   cout<<"invalide input";
+// }
 
 
 
@@ -159,7 +160,5 @@ else{
 //     cout<<"normal year";
 // }
 
-
-
-// return 0;
-}
+return 0;
+} 
