@@ -105,7 +105,7 @@ while(a<0){
     ans=digit;
    }
   
-
+//
 }
 cout<<ans;
 
